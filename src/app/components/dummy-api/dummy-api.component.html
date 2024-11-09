@@ -1,0 +1,24 @@
+
+<div>
+    <button (click)="getdata()"> GET data</button>
+
+    <button>Get all the data</button>
+
+</div>
+ 
+<div *ngIf="show">
+    <table border="1">
+        <tbody>
+            <td>Id</td>
+             <td>data.id</td>
+
+             <td>Title</td>
+             <td>data.title</td>
+
+             <td>Body </td>
+             <td>data.body</td>
+        
+        
+        </tbody>
+    </table>
+</div>
